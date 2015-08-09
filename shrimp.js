@@ -36,10 +36,25 @@ function setEntry(func) {
   global.entry = func;
 }
 
+function setRecipeName(name) {
+  global.recipeName = name;
+}
+
+function setRecipeAuthor(author) {
+  global.recipeAuthor = author;
+}
+
+function setRecipeVersion(version) {
+  global.recipeVersion = version.toString();
+}
+
 module.exports = {
   alert: alertProxy,
   debug: debugProxy,
   request: requestProxy,
   show: showProxy,
-  setEntry: setEntry
+  setEntry: setEntry,
+  setRecipeName: setRecipeName,
+  setRecipeAuthor: setRecipeAuthor,
+  setRecipeVersion: setRecipeVersion
 };

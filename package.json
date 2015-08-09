@@ -1,6 +1,6 @@
 {
   "name": "shrimp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shrimp SDK for creating Shrimp recipes",
   "main": "shrimp.js",
   "homepage": "https://github.com/seanho/shrimp-sdk.git",
